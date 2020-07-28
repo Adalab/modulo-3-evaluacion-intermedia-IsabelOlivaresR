@@ -2,10 +2,6 @@ import React from 'react';
 
 class Pokemon extends React.Component {
   render() {
-    /*const pokemonLi = this.props.ids.map((id, index) => {
-      return <li key={index}>{id}</li>;
-    });*/
-
     return (
       <article>
         <ul className='card_render '>
