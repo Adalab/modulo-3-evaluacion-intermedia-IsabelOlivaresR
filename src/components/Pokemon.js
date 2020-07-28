@@ -2,12 +2,13 @@ import React from 'react';
 
 class Pokemon extends React.Component {
   render() {
+    console.log(this.props);
     return (
       <article>
-        <ul className='card_render '>
-          <li>
+        <ul className='pokemon_list'>
+          <li className='pokemon_card '>
             <img
-              className='pokemon_icon'
+              className='pokemon_img'
               src={this.props.url}
               alt='imagen pokemon'
             />
