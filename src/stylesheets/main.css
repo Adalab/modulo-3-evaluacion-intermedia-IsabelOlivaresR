@@ -1,8 +1,12 @@
 .page {
   margin: 30px;
   background-color: lightgoldenrodyellow;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-
+.page_title {
+  font-size: 50px;
+  text-align: center;
+}
 ul {
   list-style-type: none;
   padding: 0;
@@ -12,7 +16,7 @@ ul {
   flex-wrap: wrap;
 }
 
-li {
+.card {
   border: 1px solid black;
   border-radius: 10px;
   width: 150px;
